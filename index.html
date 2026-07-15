@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Shizuku Download</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:system-ui,sans-serif;
+}
+
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    background:
+        radial-gradient(circle at top left,#6ea8ff 0%,transparent 45%),
+        radial-gradient(circle at bottom right,#67ffd5 0%,transparent 45%),
+        linear-gradient(135deg,#edf4ff,#dcecff,#edf6ff);
+}
+
+.card{
+
+    width:360px;
+    padding:30px;
+
+    border-radius:36px;
+
+    background:rgba(255,255,255,.18);
+
+    border:1px solid rgba(255,255,255,.35);
+
+    backdrop-filter:blur(25px);
+    -webkit-backdrop-filter:blur(25px);
+
+    box-shadow:
+        0 20px 60px rgba(0,0,0,.18),
+        inset 0 1px 1px rgba(255,255,255,.5);
+
+    text-align:center;
+}
+
+.logo{
+
+    width:100px;
+    height:100px;
+
+    margin:auto;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    border-radius:30px;
+
+    background:rgba(255,255,255,.2);
+
+    border:1px solid rgba(255,255,255,.3);
+
+}
+
+.logo img{
+    width:72px;
+    height:72px;
+    object-fit:contain;
+}
+
+h1{
+    margin-top:20px;
+    color:#111827;
+}
+
+p{
+    margin-top:10px;
+    color:#374151;
+    line-height:1.5;
+}
+
+.download{
+
+    margin-top:25px;
+
+    width:100%;
+    padding:16px;
+
+    border:none;
+    border-radius:999px;
+
+    font-size:16px;
+
+    color:white;
+
+    background:linear-gradient(135deg,#3b82f6,#2563eb);
+
+    cursor:pointer;
+
+    transition:.25s;
+}
+
+.download:hover{
+    transform:translateY(-2px);
+}
+
+.download:active{
+    transform:scale(.98);
+}
+
+.footer{
+
+    margin-top:18px;
+
+    color:#555;
+
+    font-size:13px;
+
+}
+</style>
+
+<link rel="icon" type="image/png" href="favicon.png">
+<link rel="apple-touch-icon" href="favicon.png">
+<meta name="theme-color" content="#3B82F6">
+
+</head>
+
+<body>
+
+<div class="card">
+
+<div class="logo">
+<img src="shizuku.png" alt="Logo Shizuku">
+</div>
+
+<h1>Shizuku</h1>
+
+<p>
+Execute serviços privilegiados no Android sem precisar de root permanente.
+</p>
+
+<button class="download"
+onclick="window.location.href='https://shizuku.rikka.app/download/'">
+
+📥 Baixar Shizuku
+
+</button>
+
+<div class="footer">
+Versão oficial • Material You • Liquid Glass
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
